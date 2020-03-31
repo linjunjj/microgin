@@ -36,7 +36,7 @@ Boost_FILESYSTEM_LIBRARY_DEBUG:FILEPATH=Boost_FILESYSTEM_LIBRARY_DEBUG-NOTFOUND
 Boost_FILESYSTEM_LIBRARY_RELEASE:FILEPATH=Boost_FILESYSTEM_LIBRARY_RELEASE-NOTFOUND
 
 //Path to a file.
-Boost_INCLUDE_DIR:PATH=Boost_INCLUDE_DIR-NOTFOUND
+Boost_INCLUDE_DIR:PATH=/usr/local/include
 
 //Boost program_options library (debug)
 Boost_PROGRAM_OPTIONS_LIBRARY_DEBUG:FILEPATH=Boost_PROGRAM_OPTIONS_LIBRARY_DEBUG-NOTFOUND
@@ -269,11 +269,17 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
+//The directory containing a CMake configuration file for glog.
+glog_DIR:PATH=glog_DIR-NOTFOUND
+
 //Value Computed by CMake
 microgin_BINARY_DIR:STATIC=/Users/linjun/CLionProjects/microgin/cmake-build-debug
 
 //Value Computed by CMake
 microgin_SOURCE_DIR:STATIC=/Users/linjun/CLionProjects/microgin
+
+//The directory containing a CMake configuration file for nlohmann_json.
+nlohmann_json_DIR:PATH=/usr/local/lib/cmake/nlohmann_json
 
 
 ########################
@@ -294,6 +300,8 @@ Boost_DIR-ADVANCED:INTERNAL=1
 Boost_FILESYSTEM_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_FILESYSTEM_LIBRARY_RELEASE
 Boost_FILESYSTEM_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_INCLUDE_DIR
+Boost_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_PROGRAM_OPTIONS_LIBRARY_DEBUG
 Boost_PROGRAM_OPTIONS_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_PROGRAM_OPTIONS_LIBRARY_RELEASE
@@ -412,7 +420,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -453,8 +461,20 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding Boost
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/local/include][c ][v1.70.0()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Details about finding nlohmann_json
+FIND_PACKAGE_MESSAGE_DETAILS_nlohmann_json:INTERNAL=[/usr/local/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake][v3.7.3()]
 //ADVANCED property for variable: ProcessorCount_cmd_sysctl
 ProcessorCount_cmd_sysctl-ADVANCED:INTERNAL=1
+//Components requested for this build tree.
+_Boost_COMPONENTS_SEARCHED:INTERNAL=
+//Last used Boost_INCLUDE_DIR value.
+_Boost_INCLUDE_DIR_LAST:INTERNAL=/usr/local/include
+//Last used Boost_NAMESPACE value.
+_Boost_NAMESPACE_LAST:INTERNAL=boost
+//Last used Boost_USE_MULTITHREADED value.
+_Boost_USE_MULTITHREADED_LAST:INTERNAL=TRUE
 

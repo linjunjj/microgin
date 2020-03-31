@@ -54,16 +54,22 @@ CMAKE_BINARY_DIR = /Users/linjun/CLionProjects/microgin/cmake-build-debug
 
 # The main recursive "all" target.
 all: include/all
+all: src/all
+all: lib/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
 clean: include/clean
+clean: src/clean
+clean: lib/clean
 
 .PHONY : clean
 
 # The main recursive "preinstall" target.
 preinstall: include/preinstall
+preinstall: src/preinstall
+preinstall: lib/preinstall
 
 .PHONY : preinstall
 
@@ -84,6 +90,69 @@ include/clean:
 include/preinstall:
 
 .PHONY : include/preinstall
+
+#=============================================================================
+# Directory level rules for directory src
+
+# Recursive "all" directory target.
+src/all: src/CMakeFiles/Server.dir/all
+
+.PHONY : src/all
+
+# Recursive "clean" directory target.
+src/clean: src/CMakeFiles/Server.dir/clean
+
+.PHONY : src/clean
+
+# Recursive "preinstall" directory target.
+src/preinstall:
+
+.PHONY : src/preinstall
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/Server.dir
+
+# All Build rule for target.
+src/CMakeFiles/Server.dir/all:
+	$(MAKE) -f src/CMakeFiles/Server.dir/build.make src/CMakeFiles/Server.dir/depend
+	$(MAKE) -f src/CMakeFiles/Server.dir/build.make src/CMakeFiles/Server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/linjun/CLionProjects/microgin/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Server"
+.PHONY : src/CMakeFiles/Server.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/Server.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/linjun/CLionProjects/microgin/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/linjun/CLionProjects/microgin/cmake-build-debug/CMakeFiles 0
+.PHONY : src/CMakeFiles/Server.dir/rule
+
+# Convenience name for target.
+Server: src/CMakeFiles/Server.dir/rule
+
+.PHONY : Server
+
+# clean rule for target.
+src/CMakeFiles/Server.dir/clean:
+	$(MAKE) -f src/CMakeFiles/Server.dir/build.make src/CMakeFiles/Server.dir/clean
+.PHONY : src/CMakeFiles/Server.dir/clean
+
+#=============================================================================
+# Directory level rules for directory lib
+
+# Recursive "all" directory target.
+lib/all:
+
+.PHONY : lib/all
+
+# Recursive "clean" directory target.
+lib/clean:
+
+.PHONY : lib/clean
+
+# Recursive "preinstall" directory target.
+lib/preinstall:
+
+.PHONY : lib/preinstall
 
 #=============================================================================
 # Special targets to cleanup operation of make.

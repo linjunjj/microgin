@@ -23,6 +23,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/Compiler/Clang.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/Compiler/GNU.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindBoost.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindPackageHandleStandardArgs.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindPackageMessage.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/Internal/CMakeCheckCompilerFlag.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/Platform/Apple-AppleClang-C.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/Platform/Apple-AppleClang-CXX.cmake"
@@ -38,6 +41,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.15.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeSystem.cmake"
   "../include/CMakeLists.txt"
+  "../lib/CMakeLists.txt"
+  "../src/CMakeLists.txt"
+  "/usr/local/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake"
+  "/usr/local/lib/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake"
+  "/usr/local/lib/cmake/nlohmann_json/nlohmann_jsonTargets.cmake"
   )
 
 # The corresponding makefile is:
@@ -50,8 +58,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "include/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "src/CMakeFiles/Server.dir/DependInfo.cmake"
   )

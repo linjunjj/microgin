@@ -2,7 +2,34 @@ cmake_minimum_required(VERSION 3.15)
 project(microgin)
 
 set(CMAKE_CXX_STANDARD 14)
-
+include_directories(${CMAKE_SOURCE_DIR}/include)
 add_subdirectory(include)
+add_subdirectory(src)
+add_subdirectory(lib)
 
-set(Boost_INCLUDE_DIR /usr/local/src/boost_1_46
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC -O3 -pthread")
+set (CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
+set (CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
+find_package(Boost COMPONENTS ${BOOST_REQUIRED_COMPONENTS} REQUIRED)
+set(Boost_USE_STATIC_LIBS OFF)
+set(Boost_USE_MULTITHREADED ON)
+set(Boost_USE_STATIC_RUNTIME OFF)
+set(BOOST_ALL_DYN_LINK ON)
+SET(BOOST_REQUIRED_COMPONENTS
+        date_time
+        filesystem
+        program_options
+        regex
+        system
+        timer
+        chrono
+        thread
+        #        unit_test_framework
+        )
+message(STATUS "** Boost Include: ${Boost_INCLUDE_DIR}")
+message(STATUS "** Boost Libraries: ${Boost_LIBRARY_DIRS}")
+message(STATUS "** Boost Libraries: ${Boost_LIBRARIES}")
+INCLUDE_DIRECTORIES(${Boost_INCLUDE_DIR})
+LINK_DIRECTORIES(${Boost_LIBRARY_DIRS})
+
+find_package(nlohmann_json CONFIG REQUIRED)

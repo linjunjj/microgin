@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="microgin" targetName="Server" />
+    </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
@@ -10,13 +12,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43c2ac3a-e1cf-4fbf-a882-2830de715287" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/micro/Context.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/micro/Context.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/include/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/include/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/include/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/include/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/microgin.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/microgin.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/include/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/micro/Config.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/microgin/Config.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/micro/Context.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/microgin/Context.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +40,14 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZqelvOzXnz0uk2YFgzqCg6VoPg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -40,7 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/include" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,9 +68,23 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/include/microgin" />
+      <recent name="$PROJECT_DIR$/include" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/include" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Server" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="microgin" TARGET_NAME="Server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="microgin" RUN_TARGET_NAME="Server">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -66,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585571205114</updated>
       <workItem from="1585571207126" duration="1530000" />
-      <workItem from="1585572784409" duration="1288000" />
+      <workItem from="1585572784409" duration="5745000" />
     </task>
     <servers />
   </component>
@@ -78,10 +109,30 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1566" y="494" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/-1080.-133.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1585572105518" />
+    <state width="1236" height="235" key="GridCell.Tab.0.bottom" timestamp="1585662628063">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1236" height="235" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1585662628063" />
+    <state width="1236" height="235" key="GridCell.Tab.0.center" timestamp="1585662628062">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1236" height="235" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1585662628062" />
+    <state width="1236" height="235" key="GridCell.Tab.0.left" timestamp="1585662628062">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1236" height="235" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1585662628062" />
+    <state width="1236" height="235" key="GridCell.Tab.0.right" timestamp="1585662628063">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1236" height="235" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1585662628063" />
     <state x="973" y="552" key="com.intellij.ide.util.TipDialog" timestamp="1585572806217">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="973" y="552" key="com.intellij.ide.util.TipDialog/-1080.-110.1080.1897/0.23.2560.1417@0.23.2560.1417" timestamp="1585572806217" />
+    <state x="613" y="531" width="639" height="486" key="find.popup" timestamp="1585663305197">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="613" y="531" width="639" height="486" key="find.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1585663305197" />
     <state x="1590" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1585572660287">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

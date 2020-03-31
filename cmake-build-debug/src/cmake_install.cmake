@@ -1,4 +1,4 @@
-# Install script for directory: /Users/linjun/CLionProjects/microgin/include
+# Install script for directory: /Users/linjun/CLionProjects/microgin/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -30,17 +30,5 @@ endif()
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xheadersx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/include/microgin")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "/usr/local/include" TYPE DIRECTORY FILES "/Users/linjun/CLionProjects/microgin/include/microgin")
 endif()
 

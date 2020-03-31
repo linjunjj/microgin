@@ -68,6 +68,28 @@ install/local/fast: preinstall/fast
 	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -102,38 +124,16 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/linjun/CLionProjects/microgin/cmake-build-debug/CMakeFiles /Users/linjun/CLionProjects/microgin/cmake-build-debug/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /Users/linjun/CLionProjects/microgin/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/linjun/CLionProjects/microgin/cmake-build-debug/CMakeFiles /Users/linjun/CLionProjects/microgin/cmake-build-debug/src/CMakeFiles/progress.marks
+	cd /Users/linjun/CLionProjects/microgin/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/linjun/CLionProjects/microgin/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /Users/linjun/CLionProjects/microgin/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,31 +143,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/linjun/CLionProjects/microgin/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/linjun/CLionProjects/microgin/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/linjun/CLionProjects/microgin/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named Server
+# Convenience name for target.
+src/CMakeFiles/Server.dir/rule:
+	cd /Users/linjun/CLionProjects/microgin/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Server.dir/rule
+.PHONY : src/CMakeFiles/Server.dir/rule
 
-# Build rule for target.
-Server: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Server
+# Convenience name for target.
+Server: src/CMakeFiles/Server.dir/rule
+
 .PHONY : Server
 
 # fast build rule for target.
 Server/fast:
-	$(MAKE) -f src/CMakeFiles/Server.dir/build.make src/CMakeFiles/Server.dir/build
+	cd /Users/linjun/CLionProjects/microgin/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Server.dir/build.make src/CMakeFiles/Server.dir/build
 .PHONY : Server/fast
+
+Server.o: Server.cpp.o
+
+.PHONY : Server.o
+
+# target to build an object file
+Server.cpp.o:
+	cd /Users/linjun/CLionProjects/microgin/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Server.dir/build.make src/CMakeFiles/Server.dir/Server.cpp.o
+.PHONY : Server.cpp.o
+
+Server.i: Server.cpp.i
+
+.PHONY : Server.i
+
+# target to preprocess a source file
+Server.cpp.i:
+	cd /Users/linjun/CLionProjects/microgin/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Server.dir/build.make src/CMakeFiles/Server.dir/Server.cpp.i
+.PHONY : Server.cpp.i
+
+Server.s: Server.cpp.s
+
+.PHONY : Server.s
+
+# target to generate assembly for a file
+Server.cpp.s:
+	cd /Users/linjun/CLionProjects/microgin/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Server.dir/build.make src/CMakeFiles/Server.dir/Server.cpp.s
+.PHONY : Server.cpp.s
 
 # Help Target
 help:
@@ -176,12 +205,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/local"
+	@echo "... Server"
+	@echo "... rebuild_cache"
+	@echo "... edit_cache"
 	@echo "... install/strip"
 	@echo "... install"
 	@echo "... list_install_components"
-	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... Server"
+	@echo "... Server.o"
+	@echo "... Server.i"
+	@echo "... Server.s"
 .PHONY : help
 
 
@@ -193,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/linjun/CLionProjects/microgin/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
