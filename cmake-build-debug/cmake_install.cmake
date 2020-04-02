@@ -39,12 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/linjun/CLionProjects/microgin/cmake-build-debug/src/cmake_install.cmake")
+  include("/Users/linjun/CLionProjects/microgin/cmake-build-debug/lib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/linjun/CLionProjects/microgin/cmake-build-debug/lib/cmake_install.cmake")
+  include("/Users/linjun/CLionProjects/microgin/cmake-build-debug/src/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

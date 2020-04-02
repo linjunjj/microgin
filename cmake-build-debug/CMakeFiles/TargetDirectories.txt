@@ -10,6 +10,12 @@
 /Users/linjun/CLionProjects/microgin/cmake-build-debug/include/CMakeFiles/list_install_components.dir
 /Users/linjun/CLionProjects/microgin/cmake-build-debug/include/CMakeFiles/rebuild_cache.dir
 /Users/linjun/CLionProjects/microgin/cmake-build-debug/include/CMakeFiles/edit_cache.dir
+/Users/linjun/CLionProjects/microgin/cmake-build-debug/lib/CMakeFiles/install/local.dir
+/Users/linjun/CLionProjects/microgin/cmake-build-debug/lib/CMakeFiles/install/strip.dir
+/Users/linjun/CLionProjects/microgin/cmake-build-debug/lib/CMakeFiles/install.dir
+/Users/linjun/CLionProjects/microgin/cmake-build-debug/lib/CMakeFiles/list_install_components.dir
+/Users/linjun/CLionProjects/microgin/cmake-build-debug/lib/CMakeFiles/rebuild_cache.dir
+/Users/linjun/CLionProjects/microgin/cmake-build-debug/lib/CMakeFiles/edit_cache.dir
 /Users/linjun/CLionProjects/microgin/cmake-build-debug/src/CMakeFiles/install/local.dir
 /Users/linjun/CLionProjects/microgin/cmake-build-debug/src/CMakeFiles/Server.dir
 /Users/linjun/CLionProjects/microgin/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
@@ -17,9 +23,3 @@
 /Users/linjun/CLionProjects/microgin/cmake-build-debug/src/CMakeFiles/install/strip.dir
 /Users/linjun/CLionProjects/microgin/cmake-build-debug/src/CMakeFiles/install.dir
 /Users/linjun/CLionProjects/microgin/cmake-build-debug/src/CMakeFiles/list_install_components.dir
-/Users/linjun/CLionProjects/microgin/cmake-build-debug/lib/CMakeFiles/install/local.dir
-/Users/linjun/CLionProjects/microgin/cmake-build-debug/lib/CMakeFiles/install/strip.dir
-/Users/linjun/CLionProjects/microgin/cmake-build-debug/lib/CMakeFiles/install.dir
-/Users/linjun/CLionProjects/microgin/cmake-build-debug/lib/CMakeFiles/list_install_components.dir
-/Users/linjun/CLionProjects/microgin/cmake-build-debug/lib/CMakeFiles/rebuild_cache.dir
-/Users/linjun/CLionProjects/microgin/cmake-build-debug/lib/CMakeFiles/edit_cache.dir

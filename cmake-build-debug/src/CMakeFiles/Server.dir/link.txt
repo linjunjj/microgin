@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Server.dir/Server.cpp.o  -o Server -lmicrogin 
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -O3 -pthread -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Server.dir/Server.cpp.o  -o ../Server  -L/usr/local/lib -Wl,-rpath,/usr/local/lib -lmicrogin 
