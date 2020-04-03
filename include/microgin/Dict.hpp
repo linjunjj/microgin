@@ -13,7 +13,7 @@
 
 #include <microgin/Exception.hpp>
 
-namespace restpp {
+namespace microgin {
 
 /*!
  * A template Dictionary class with a python-like interface.

@@ -1,16 +1,15 @@
 //
 // Created by 林俊 on 2020/3/30.
 //
-#ifndef RESTPP_CONTEXT_HPP
-#define RESTPP_CONTEXT_HPP
+#ifndef MICROGIN_CONTEXT_HPP
+#define MICROGIN_CONTEXT_HPP
 
 #include <memory>
 #include <boost/beast/core.hpp>
 #include <boost/beast/http.hpp>
 #include <boost/beast/http/message.hpp>
 #include <boost/beast/http/dynamic_body.hpp>
-#include "restpp/Types.hpp"
-#include "restpp/Dict.hpp"
+#include "microgin/Dict.hpp"
 #include <boost/beast/core.hpp>
 
 namespace microgin {
@@ -40,8 +39,13 @@ namespace microgin {
       typedef std::shared_ptr<Context> sptr;
       static sptr make(boost::asio::ip::tcp::socket &socket, bool &close, boost::system::error_code &ec);
 
-      virtual void ParseGetParam() = 0
-      virtual Dist
+      virtual void ParseGetParam() = 0;
+      virtual Dict<std::string, std::string> &GetParams() = 0;
+      virtual void ShouldBindJSON(json &j)  = 0;
+
+
   };
 
 }
+
+#endif
