@@ -10,6 +10,7 @@
 #include <boost/beast/http/message.hpp>
 #include <boost/beast/http/dynamic_body.hpp>
 #include "microgin/Dict.hpp"
+#include "Types.hpp"
 #include <boost/beast/core.hpp>
 
 namespace microgin {

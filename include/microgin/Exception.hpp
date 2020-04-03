@@ -46,4 +46,4 @@ namespace microgin {
     };
 
 }
-#endif //RESTPP_EXCEPTION_HPP
+#endif //MICROGIN_EXCEPTION_HPP
