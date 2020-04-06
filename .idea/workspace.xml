@@ -12,10 +12,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43c2ac3a-e1cf-4fbf-a882-2830de715287" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/include/microgin/Types.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/microgin/Engine.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/include/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/include/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Server.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Server.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/microgin/Config.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/microgin/Config.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/microgin/Context.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/microgin/Context.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/microgin/Dict.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/microgin/Dict.hpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +35,14 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value=".hpp" />
+        <option value="C++ HPP" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -51,6 +68,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -85,7 +103,9 @@
       <workItem from="1585571207126" duration="1530000" />
       <workItem from="1585572784409" duration="5988000" />
       <workItem from="1585829409060" duration="3027000" />
-      <workItem from="1585834944641" duration="5039000" />
+      <workItem from="1585834944641" duration="6002000" />
+      <workItem from="1586000328835" duration="321000" />
+      <workItem from="1586180326197" duration="2493000" />
     </task>
     <servers />
   </component>
@@ -93,10 +113,11 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1566" y="494" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1585572105519">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="544" y="264" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1586181587969">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="1566" y="494" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/-1080.-133.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1585572105518" />
+    <state x="544" y="264" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1586181587969" />
     <state width="1236" height="235" key="GridCell.Tab.0.bottom" timestamp="1585665328969">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
@@ -113,19 +134,24 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="1236" height="235" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1585665328968" />
-    <state x="973" y="552" key="com.intellij.ide.util.TipDialog" timestamp="1585572806217">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state x="461" y="239" key="SettingsEditor" timestamp="1586181322037">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="461" y="239" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1586181322037" />
+    <state x="730" y="448" key="com.intellij.ide.util.TipDialog" timestamp="1586180340488">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="973" y="552" key="com.intellij.ide.util.TipDialog/-1080.-110.1080.1897/0.23.2560.1417@0.23.2560.1417" timestamp="1585572806217" />
+    <state x="730" y="448" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1586180340488" />
     <state x="613" y="531" width="639" height="486" key="find.popup" timestamp="1585663305197">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="613" y="531" width="639" height="486" key="find.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1585663305197" />
-    <state x="1590" y="331" width="670" height="677" key="search.everywhere.popup" timestamp="1585922841153">
+    <state x="1590" y="331" width="670" height="677" key="search.everywhere.popup" timestamp="1585923247033">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1590" y="331" width="670" height="676" key="search.everywhere.popup/-1080.-133.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1585572660287" />
-    <state x="1590" y="331" width="670" height="677" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1585922841153" />
+    <state x="1590" y="331" width="670" height="677" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1585923247033" />
     <state x="1590" y="349" width="670" height="666" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1585834627534" />
   </component>
   <component name="XDebuggerManager">

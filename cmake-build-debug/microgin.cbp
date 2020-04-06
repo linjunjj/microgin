@@ -122,6 +122,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/linjun/CLionProjects/microgin/lib/Context.cpp">
+			<Option target="Server"/>
+		</Unit>
 		<Unit filename="/Users/linjun/CLionProjects/microgin/src/Server.cpp">
 			<Option target="Server"/>
 		</Unit>

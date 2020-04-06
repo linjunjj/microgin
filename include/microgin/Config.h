@@ -15,22 +15,22 @@ typeof ptrdiff_t ssize_t
 #endif
 
 #if  defined(_MSC_VER)
-#define RESTPP_EXPORT         __declspec(dllexport)
-#define RESTPP_IMPORT         __declspec(dllimport)
-#define RESTPP_INLINE         __forceinline
-#define RESTPP_DEPRECATED     __declspec(deprecated)
-#define RESTPP_ALIGNED(x)     __declspec(align(x))
-#define RESTPP_UNUSED(x)      x
+#define MICROGIN_EXPORT         __declspec(dllexport)
+#define MICROGIN_IMPORT         __declspec(dllimport)
+#define MICROGIN_INLINE         __forceinline
+#define MICROGIN_DEPRECATED     __declspec(deprecated)
+#define MICROGIN_ALIGNED(x)     __declspec(align(x))
+#define MICROGIN_UNUSED(x)      x
 #endif
 
 #endif //MICROGIN_CONFIG_H
 
-#ifdef RESTPP_STATIC_LIB
-#define RESTPP_API
+#ifdef MICROGIN_STATIC_LIB
+#define MICROGIN_API
 #else
-#ifdef RESTPP_DLL_EXPORTS
-#define RESTPP_API RESTPP_EXPORT
+#ifdef MICROGIN_DLL_EXPORTS
+#define MICROGIN_API MICROGIN_EXPORT
 #else
-#define RESTPP_API RESTPP_IMPORT
+#define MICROGIN_API_API RESTPP_IMPORT
 #endif // RESTPP_DLL_EXPORTS
 #endif // RESTPP_STATIC_LIB

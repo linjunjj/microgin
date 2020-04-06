@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/linjun/CLionProjects/microgin/src/Server.cpp" "/Users/linjun/CLionProjects/microgin/cmake-build-debug/src/CMakeFiles/Server.dir/Server.cpp.o"
+  "/Users/linjun/CLionProjects/microgin/lib/Context.cpp" "/Users/linjun/CLionProjects/microgin/cmake-build-debug/src/CMakeFiles/Server.dir/__/lib/Context.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
