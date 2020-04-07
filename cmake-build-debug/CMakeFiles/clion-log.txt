@@ -1,4 +1,4 @@
-"/Users/linjun/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.6911.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/linjun/CLionProjects/microgin
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/linjun/CLionProjects/microgin
 -- ** Boost Include: /usr/local/include
 -- ** Boost Libraries: /usr/local/lib
 -- ** Boost Libraries: /usr/local/lib/libboost_date_time-mt.dylib;/usr/local/lib/libboost_filesystem-mt.dylib;/usr/local/lib/libboost_program_options-mt.dylib;/usr/local/lib/libboost_regex-mt.dylib;/usr/local/lib/libboost_system-mt.dylib;/usr/local/lib/libboost_timer-mt.dylib;/usr/local/lib/libboost_chrono-mt.dylib;/usr/local/lib/libboost_thread-mt.dylib;/usr/local/lib/libboost_atomic-mt.dylib

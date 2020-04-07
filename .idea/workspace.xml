@@ -12,19 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43c2ac3a-e1cf-4fbf-a882-2830de715287" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/include/microgin/Engine.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/include/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/include/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Server.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Server.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/microgin/Config.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/microgin/Config.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/microgin/Context.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/microgin/Context.hpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +93,7 @@
       <workItem from="1585829409060" duration="3027000" />
       <workItem from="1585834944641" duration="6002000" />
       <workItem from="1586000328835" duration="321000" />
-      <workItem from="1586180326197" duration="2493000" />
+      <workItem from="1586180326197" duration="3792000" />
     </task>
     <servers />
   </component>
@@ -118,6 +106,10 @@
     </state>
     <state x="1566" y="494" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/-1080.-133.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1585572105518" />
     <state x="544" y="264" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1586181587969" />
+    <state x="698" y="354" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586183090292">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="698" y="354" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1586183090292" />
     <state width="1236" height="235" key="GridCell.Tab.0.bottom" timestamp="1585665328969">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
