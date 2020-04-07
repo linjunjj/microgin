@@ -26,6 +26,12 @@ namespace microgin {
          */
         Dict();
 
+        /*!
+         * Input iterator constructor:
+         * Makes boost::assign::map_list_of work.
+         * \param first the begin iterator
+         * \param last the end iterator
+         */
         template<typename InputIterator>
         Dict(InputIterator first, InputIterator last);
 
@@ -143,12 +149,12 @@ namespace microgin {
 
 
 
-namespace restpp {
+namespace microgin {
 
     namespace /*anon*/{
         template<typename Key, typename Val>
-        struct key_not_found : restpp::KeyError {
-            explicit key_not_found(const Key &key) : restpp::KeyError(
+        struct key_not_found : microgin::KeyError {
+            explicit key_not_found(const Key &key) : microgin::KeyError(
                     str(boost::format(
                             "key \"%s\" not found in Dict(%s, %s)"
                         ) % boost::lexical_cast<std::string>(key)
@@ -276,7 +282,7 @@ namespace restpp {
     void Dict<Key, Val>::update(const Dict<Key, Val> &new_Dict, bool fail_on_conflict) {
         for (const Key &key: new_Dict.keys()) {
             if (fail_on_conflict and has_key(key) and get(key) != new_Dict[key]) {
-                throw restpp::ValueError(str(
+                throw microgin::ValueError(str(
                         boost::format("Option merge conflict: %s:%s != %s:%s")
                         % key % get(key) % key % new_Dict[key]
                 ));
