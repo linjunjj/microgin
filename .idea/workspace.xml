@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43c2ac3a-e1cf-4fbf-a882-2830de715287" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/microgin/Dict.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/microgin/Dict.hpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +94,7 @@
       <workItem from="1585834944641" duration="6002000" />
       <workItem from="1586000328835" duration="321000" />
       <workItem from="1586180326197" duration="3792000" />
+      <workItem from="1586269229904" duration="92000" />
     </task>
     <servers />
   </component>

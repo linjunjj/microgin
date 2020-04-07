@@ -26,12 +26,6 @@ namespace microgin {
          */
         Dict();
 
-        /*!
-         * Input iterator constructor:
-         * Makes boost::assign::map_list_of work.
-         * \param first the begin iterator
-         * \param last the end iterator
-         */
         template<typename InputIterator>
         Dict(InputIterator first, InputIterator last);
 
