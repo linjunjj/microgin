@@ -12,7 +12,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43c2ac3a-e1cf-4fbf-a882-2830de715287" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/include/microgin/Dict.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/microgin/Dict.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/include/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/include/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Server.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/Server.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Context.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Context.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +104,9 @@
       <workItem from="1585834944641" duration="6002000" />
       <workItem from="1586000328835" duration="321000" />
       <workItem from="1586180326197" duration="3792000" />
-      <workItem from="1586269229904" duration="92000" />
+      <workItem from="1586269229904" duration="700000" />
+      <workItem from="1586782599598" duration="585000" />
+      <workItem from="1587907844347" duration="785000" />
     </task>
     <servers />
   </component>
@@ -131,10 +143,12 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="461" y="239" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1586181322037" />
-    <state x="730" y="448" key="com.intellij.ide.util.TipDialog" timestamp="1586180340488">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state x="973" y="552" key="com.intellij.ide.util.TipDialog" timestamp="1587908170726">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="973" y="552" key="com.intellij.ide.util.TipDialog/-1080.-110.1080.1897/0.23.2560.1417@0.23.2560.1417" timestamp="1585572806217" />
+    <state x="973" y="538" key="com.intellij.ide.util.TipDialog/-1920.225.1920.1200/0.0.2560.1440@0.0.2560.1440" timestamp="1586782600006" />
+    <state x="973" y="552" key="com.intellij.ide.util.TipDialog/-1920.248.1920.1177/0.23.2560.1417@0.23.2560.1417" timestamp="1587908170726" />
     <state x="730" y="448" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1586180340488" />
     <state x="613" y="531" width="639" height="486" key="find.popup" timestamp="1585663305197">
       <screen x="0" y="23" width="2560" height="1417" />
